@@ -12,7 +12,7 @@ fi
 
 meu_nome="Lucas"
 
-echo "Qual o seu nome?"
+printf "\nQual o seu nome?"
 read nome
 
 if [[ "$nome" = "$meu_nome" ]]; then
